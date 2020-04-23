@@ -33,7 +33,7 @@ if !exists("cpp_no_cpp11")
   syn keyword cppModifier	override final
   syn keyword cppType		nullptr_t auto
   syn keyword cppExceptions	noexcept
-  syn keyword cppStorageClass	constexpr decltype thread_local
+  syn keyword cppStorageClass	constexpr decltype declval thread_local
   syn keyword cppConstant	nullptr
   syn keyword cppConstant	ATOMIC_FLAG_INIT ATOMIC_VAR_INIT
   syn keyword cppConstant	ATOMIC_BOOL_LOCK_FREE ATOMIC_CHAR_LOCK_FREE
